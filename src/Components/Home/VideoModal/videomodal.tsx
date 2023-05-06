@@ -12,7 +12,7 @@ import { RootState } from "../../../store";
 import { toggleImageModalOpen } from "../../../store/ui";
 import { downloadAsset } from "../../../services/assets.service";
 import { saveAs } from "file-saver";
-import { Media, Video } from "@vidstack/player-react";
+// import { Media, Video } from "@vidstack/player-react";
 import { Link } from "react-router-dom";
 
 Modal.setAppElement("#root");
@@ -142,17 +142,7 @@ export const VideoModal: FC<{ videos: any; index: number }> = ({
           </div>
 
           <div className="flex py-8 justify-between w-[95%]">
-
-              <div className="ml-24">
-                <Media>
-                  <Video loading="visible" controls preload="true">
-                  {/* poster="https://media-files.vidstack.io/poster.png" */}
-                    <video poster="https://media-files.vidstack.io/poster-seo.png" src={videos[ind]?.src}
-                    preload="none" data-video="0" controls />
-                    {/* src="https://media-files.vidstack.io/720p.mp4" */}
-                  </Video>
-                </Media>
-              </div>
+            <div className="ml-24"></div>
 
             {/* <img
               className="max-h-[600px]  object-cover w-full mr-20 ml-14"

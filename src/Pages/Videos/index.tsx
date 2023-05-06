@@ -11,7 +11,7 @@ import "./index.css";
 import { useQuery } from "react-query";
 import { getAssets } from "../../services/assets.service";
 import { Loader } from "@mantine/core";
-import {Media, Video } from '@vidstack/player-react';
+// import {Media, Video } from '@vidstack/player-react';
 import { VideoModal } from "../../Components/Home/VideoModal/videomodal";
 import { toggleImageModalOpen } from "../../store/ui";
 import { useDispatch } from "react-redux";
@@ -60,20 +60,7 @@ export const VideosPage = () => {
               {data.data.map((video: any, ind: number) => {
                 return (
                   <div onClick={() => openPopup(ind)}>
-
-                    <Media>
-                      <Video loading="visible" preload="true">
-                      {/* poster="https://media-files.vidstack.io/poster.png" */}
-                        <video poster="https://media-files.vidstack.io/poster-seo.png" src={video.src}
-                        preload="none" data-video="0" />
-                        {/* src="https://media-files.vidstack.io/720p.mp4" */}
-                      </Video>
-                    </Media>
-                    
-
-
-
-                  {/* <ReactPlayer
+                    {/* <ReactPlayer
                     width={300}
                     height={300}
                     key={t.key}
