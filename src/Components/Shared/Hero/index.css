@@ -1,0 +1,27 @@
+.category-select {
+    border: none;
+}
+
+.category__control {
+    border:none !important;
+    background-color: #189EFF !important;
+    min-height: max-content !important;
+}
+.category__indicator {
+    padding:0px 5px 0px 0px !important
+}
+.category__indicator-separator {
+    display: none;
+}
+
+.category__value-container {
+    padding: 5px !important;
+}
+
+.category__single-value {
+    color: white !important;
+}
+
+.category__dropdown-indicator svg{
+  fill: white;
+}

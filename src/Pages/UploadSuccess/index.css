@@ -1,0 +1,9 @@
+.mantine-Tabs-tabLabel {
+    font-family: Poppins;
+    color: #696969;
+}
+
+.mantine-Tabs-tabActive .mantine-Tabs-tabLabel {
+    color: black;
+    font-weight: 500;
+}

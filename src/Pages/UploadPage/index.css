@@ -1,0 +1,25 @@
+.category-menu {
+    flex:1;
+    width: 100%;
+}
+
+label.mantine-MultiSelect-label,label.mantine-InputWrapper-label{
+    font-size: 16px !important;
+    color: #4b3a5a;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.select__placeholder  {
+    font-size: 14px;
+}
+
+.select__single-value  {
+    font-size: 14px;
+    color: #4b3a5a !important;
+}
+
+.mantine-Input-wrapper input {
+    color: #4b3a5a !important;
+    font-family: Poppins;
+}

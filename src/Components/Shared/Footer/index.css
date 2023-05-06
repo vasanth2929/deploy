@@ -1,0 +1,90 @@
+.full-nav-menu {
+    display: flex;
+    padding: 30px;
+}
+
+.tooltip-container {
+    margin-top: 10px !important;
+    padding: 0px !important;
+}
+
+.navbar {
+    box-shadow: 0px 8px 16px rgba(62, 19, 77, 0.07)
+}
+
+.active-path {
+    color: #189eff;
+}
+
+.subscribe-btn {
+    /* background-color: #ffba00 !important; */
+    color: #FFF !important;
+    border-radius: 0.25rem !important;
+    padding: 0 !important;
+    height: 37px !important;
+    width: 110px !important;
+    margin-left: 2px !important;
+}
+
+.subscribe-input {
+    border-radius: 0.25rem !important;
+}
+
+::placeholder {
+    font-size: 14px !important;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* .buttons {
+    margin: 10%;
+    text-align: center;
+} */
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516) !important;
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75) !important;
+}
+
+
+
+.media-links a:hover {
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516) !important;
+    /* box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75) !important; */
+}

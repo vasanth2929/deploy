@@ -1,0 +1,21 @@
+export type User = {
+  username: string;
+  email: string;
+  img: string;
+  slug: string;
+  location: string;
+  bio: string;
+  instagram: string;
+  facebook: string;
+  twitter: string;
+  cover: string;
+  password: string;
+  role: string;
+  status: string;
+  phone: string;
+  firstName: string;
+  lastName: string;
+  websiteUrl: string;
+  isSubscribedToNewsletter: boolean;
+  country: string;
+};

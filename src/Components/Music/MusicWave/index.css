@@ -1,0 +1,15 @@
+.react-waves{
+    height: 56px !important;
+    margin: 0px;
+    flex:1;
+}
+
+.react-waves .wave wave {
+    height: 56px !important;
+    margin: 0px;
+}
+
+.play-icon {
+    width: 40px;
+    height: 40px;
+}

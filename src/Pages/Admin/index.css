@@ -1,0 +1,38 @@
+.row {
+  background: #ffffff;
+  /* Grey 2 */
+
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.user-img {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.status {
+    padding: 4px 16px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.status.active {
+    color: #189EFF;
+    border:1px solid #189EFF;
+}
+
+.status.inactive {
+    color: #696969;
+    border:1px solid #696969;
+}
+
+.user-name {
+  color:   #189EFF
+}
+
+
+.active-pagination-btn {
+    background-color: #189EFF !important;
+}

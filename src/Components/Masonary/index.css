@@ -1,0 +1,33 @@
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -20px; 
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 20px;  
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+    padding-bottom: 20px;
+}
+
+.action-btn {
+  width: 120px;
+}
+
+.action-btn.view {
+  background-color: #189EFF;
+  margin-bottom: 5px;
+}
+
+.action-btn.approve {
+  background-color: #2CC077;
+  margin-bottom: 5px;
+}
+
+.action-btn.reject {
+  background-color: #F32D2D;
+}
