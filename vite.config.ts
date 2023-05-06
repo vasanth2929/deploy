@@ -10,10 +10,10 @@ export default defineConfig(({ command }) => {
   } else {
     return {
       plugins: [react()],
-      build: {
-        outDir: "../server/dist/public",
-        assetsDir: "static",
-      },
+      // build: {
+      //   outDir: "../server/dist/public",
+      //   assetsDir: "static",
+      // },
     };
   }
 });
