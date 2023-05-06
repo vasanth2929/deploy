@@ -19,8 +19,6 @@ import { RejectModal } from "../RejectModal";
 import { AssetViewModal } from "../AssetViewModal";
 
 
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 import { AppLoader } from "../Shared/Loader";
 
 const _Masonry: FC<{
@@ -192,16 +190,7 @@ const _Masonry: FC<{
                     //   className="w-full relative img cursor-pointer h-full object-cover rounded-lg"
                     // />
 
-                    <LazyLoadImage
-                      alt={photo.alt}
-                      id="lazy-load-image"
-                      threshold={5}
-                      effect="blur"
-                      width="100%"
-                      height="100%"
-                      // width={200}
-                      src={photo.src}
-                    />
+                    <></>
                   )}
 
                   <div
